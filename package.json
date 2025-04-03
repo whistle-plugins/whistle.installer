@@ -1,0 +1,17 @@
+{
+  "name": "whistle.installer",
+  "version": "1.0.0",
+  "description": "Plugin for installing whistle plugins",
+  "whistleConfig": {
+    "installUrl": "cgi-bin/install",
+    "installRegistry": "https://registry.npmmirror.com"
+  },
+  "dependencies": {
+    "koa": "^2.15.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-onerror": "^4.2.0",
+    "koa-router": "^12.0.1",
+    "koa-static": "^5.0.0",
+    "npminstall": "^7.12.0"
+  }
+}
